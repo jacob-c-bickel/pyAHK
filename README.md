@@ -51,6 +51,6 @@ ahk.execute()
 
 <h2>class pythonahk.AhkBinding</h2>
 
-* AhkBinding.add_hotkey(trigger, ahk_snippet="", callback=None, args=[])
-* AhkBinding.add_template(script_filename, params={})
+* AhkBinding.add_hotkey(`trigger, ahk_snippet="", callback=None, args=[]`)
+* AhkBinding.add_template(`script_filename, params={}`)
 * AhkBinding.execute()
