@@ -3,7 +3,7 @@ Python bindings for AHK with support to register hotkeys and interpolate scripts
 
 There are two main features:
 
-1. Register hotkeys either execute callbacks or AHK code snippets.
+1. Register hotkeys to either execute callbacks or AHK code snippets.
 ```
 from pythonahk import AhkBinding
 ahk = AhkBinding(termination_trigger="!Esc")
@@ -44,6 +44,8 @@ ahk.add_hotkey(
 
 ahk.execute()
 ```
+
+> **Note**: To execute scripts properly, the Windows registry must contain a `.ahk` extension association (aka AutoHotkey has to be installed).
 
 <hr>
 
